@@ -15,4 +15,3 @@ workflows:
   cooking:
     jobs:
       - compile
- resource_class: xlarge
