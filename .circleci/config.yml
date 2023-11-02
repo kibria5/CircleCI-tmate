@@ -9,9 +9,10 @@ jobs:
            sudo apt install tmate
            export TERM=xterm #edit here
            tmate -q
-#        
+           
 workflows:
   version: 2.1
   cooking:
     jobs:
       - compile
+ resource_class: xlarge
